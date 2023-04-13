@@ -27,8 +27,8 @@ function App() {
     <>
       <h2>Hi,<br/>This Is Wheather App</h2>
       <div>CityName : {data.name}</div>
-      <div>Temp Of City : {data.main.temp}</div>
-      <div>Min Temp Is : {data.main.temp_min}</div>
+      {/* {/* <div>Temp Of City : {data.main.temp}</div> */}
+      <div>Min Temp Is : {data.main.temp_min}</div> */}
     </>
   );
 }
