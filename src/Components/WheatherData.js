@@ -6,6 +6,7 @@ import "../App.css";
 import Title from "./Title";
 import TextArea from "./TextArea";
 import Data from "./Data";
+import Footer from "./Footer";
 function WheatherData() {
   const [data, setData] = useState({});
   const [search, setSearch] = useState("");
@@ -26,11 +27,13 @@ function WheatherData() {
     <>
       <br />
       <div className="container">
-        <Title title="Hi,Wheather Checking App" />
+        <Title title="  Hi,मौसम Checking App  " />
         <br />
         <TextArea search={search} setsearch={setSearch} />
         <br />
         <Data data={data} />
+        <br />
+        <Footer />
       </div>
     </>
   );

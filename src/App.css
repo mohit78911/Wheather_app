@@ -38,7 +38,7 @@
 }
 
 .fontfamily {
-  opacity: 0.5;
+  opacity: 0.6;
   font-family: "Oswald", sans-serif;
 }
 
@@ -54,7 +54,7 @@ body {
 }
 
 .setOfBox {
-  width: 25%;
+  width: 45vh;
   height: 70vh;
   background-image: url('/public/image/img4.jpg');
   background-size: cover;
@@ -72,4 +72,15 @@ background-position: center;
 
 .color{
 color: rgb(148, 148, 148);  
+}
+.fixed {
+  position: fixed;
+  /* padding: 5px; */
+  padding-top: 10px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #161616;
+  color: white;
+  text-align: center;
 }

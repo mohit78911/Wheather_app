@@ -3,8 +3,8 @@ import React from "react";
 export default function Data(props) {
   return (
     <>
-      <div className="color">
-        <div className="setOfBox round">
+      <div className=" color">
+        <div className=" setOfBox round">
           <br />
           <br />
           <br />
@@ -13,10 +13,10 @@ export default function Data(props) {
           <br />
           <br />
           <br />
-
+          <br />
           {/* name div start */}
           <div>
-            <li class="list-group-item ">
+            <li className="list-group-item ">
               {props.data.location && (
                 <div>
                   CityName: <b>{props.data.location.name}</b>
@@ -45,7 +45,7 @@ export default function Data(props) {
           {/* atmosphere div start */}
 
           <div>
-            <li class="list-group-item">
+            <li className="list-group-item">
               {props.data.current && (
                 <div>
                   Atmosphere : <b>{props.data.current.condition.text}</b>
@@ -56,7 +56,7 @@ export default function Data(props) {
           {/* atmosphere div end */}
           {/* icon div start */}
           <div>
-            <li class="list-group-item">
+            <li className="list-group-item">
               {props.data.current && (
                 <div>
                   Icon:
@@ -69,11 +69,10 @@ export default function Data(props) {
             </li>
           </div>
           {/* icon div end */}
-          <div>
-            <p>Build || Mohit Suthar</p>
-          </div>
         </div>
       </div>
+      <br />
+      <br />
       <br />
     </>
   );
