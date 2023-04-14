@@ -28,7 +28,7 @@ export default function Data(props) {
           <br />
           <br />
           <br />
-          
+
           {/* temprature div start */}
           <div>
             {props.data.current && (
@@ -68,7 +68,10 @@ export default function Data(props) {
               )}
             </li>
           </div>
-          {/* icon div start */}
+          {/* icon div end */}
+          <div>
+            <p>Build || Mohit Suthar</p>
+          </div>
         </div>
       </div>
       <br />
