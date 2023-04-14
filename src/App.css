@@ -55,8 +55,8 @@ body {
 
 .setOfBox {
   width: 25%;
-  height: 60vh;
-  background-image: url('/public/image/img3.jpg');
+  height: 70vh;
+  background-image: url('/public/image/img4.jpg');
   background-size: cover;
 background-position: center;  
  
@@ -71,5 +71,5 @@ background-position: center;
 }
 
 .color{
-color: white;  
+color: rgb(148, 148, 148);  
 }

@@ -6,6 +6,14 @@ export default function Data(props) {
       <div className="color">
         <div className="setOfBox round">
           <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+
           {/* name div start */}
           <div>
             <li class="list-group-item ">
@@ -17,6 +25,10 @@ export default function Data(props) {
             </li>
           </div>
           {/* name div end */}
+          <br />
+          <br />
+          <br />
+          
           {/* temprature div start */}
           <div>
             {props.data.current && (
@@ -31,8 +43,7 @@ export default function Data(props) {
           </div>
           {/* temprature div end */}
           {/* atmosphere div start */}
-          <br />
-          <br />
+
           <div>
             <li class="list-group-item">
               {props.data.current && (
