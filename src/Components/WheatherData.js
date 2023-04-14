@@ -30,7 +30,6 @@ function WheatherData() {
         <br />
         <TextArea search={search} setsearch={setSearch} />
         <br />
-        <br />
         <Data data={data} />
       </div>
     </>

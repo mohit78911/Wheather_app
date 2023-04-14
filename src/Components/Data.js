@@ -3,9 +3,11 @@ import React from "react";
 export default function Data(props) {
   return (
     <>
-      <div>
-        <div class="card">
-          <ul class="list-group list-group-flush ">
+      <div className="color">
+        <div className="setOfBox round">
+          <br />
+          {/* name div start */}
+          <div>
             <li class="list-group-item ">
               {props.data.location && (
                 <div>
@@ -13,13 +15,36 @@ export default function Data(props) {
                 </div>
               )}
             </li>
+          </div>
+          {/* name div end */}
+          {/* temprature div start */}
+          <div>
+            {props.data.current && (
+              <div>
+                Temp Of City:{" "}
+                <b>
+                  {props.data.current.temp_c}
+                  <sup>o</sup>Cel
+                </b>
+              </div>
+            )}
+          </div>
+          {/* temprature div end */}
+          {/* atmosphere div start */}
+          <br />
+          <br />
+          <div>
             <li class="list-group-item">
               {props.data.current && (
                 <div>
-                  Temp Of City: <b>{props.data.current.temp_c}</b>
+                  Atmosphere : <b>{props.data.current.condition.text}</b>
                 </div>
               )}
             </li>
+          </div>
+          {/* atmosphere div end */}
+          {/* icon div start */}
+          <div>
             <li class="list-group-item">
               {props.data.current && (
                 <div>
@@ -31,17 +56,11 @@ export default function Data(props) {
                 </div>
               )}
             </li>
-            <li class="list-group-item">
-              {props.data.current && (
-                <div>
-                  Atmosphere : <b>{props.data.current.condition.text}</b>
-                </div>
-              )}
-            </li>
-          </ul>
+          </div>
+          {/* icon div start */}
         </div>
       </div>
-      <div></div>
+      <br />
     </>
   );
 }
