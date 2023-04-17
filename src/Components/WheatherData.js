@@ -27,7 +27,7 @@ function WheatherData() {
     <>
       <br />
       <div className="container">
-        <Title title="  Hi,मौसम Checking App  " />
+        <Title title="  Hi, मौसम विभाग App  " />
         <br />
         <TextArea search={search} setsearch={setSearch} />
         <br />

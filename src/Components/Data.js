@@ -11,9 +11,6 @@ export default function Data(props) {
           <br />
           <br />
           <br />
-          <br />
-          <br />
-          <br />
           {/* name div start */}
           <div>
             <li className="list-group-item ">
